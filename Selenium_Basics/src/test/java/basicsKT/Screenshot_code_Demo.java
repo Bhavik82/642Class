@@ -28,7 +28,7 @@ public class Screenshot_code_Demo {
 		//driver.manage().window().maximize();
 		
 		Date d = new Date();
-		DateFormat df = new SimpleDateFormat("mm/dd/yyyy-hh:mm:ss");
+		DateFormat df = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
 		String timeStamp = df.format(d);
 		
 		//String path = ".\\Snapshots\\";
