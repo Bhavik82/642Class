@@ -7,6 +7,7 @@
       <class name="testNG_Programs.FirstPrgmDemo"/>
       <class name="testNG_Programs.Us_megabus"/>
       <class name="testNG_Programs.AnnotationsDemo2"/>
+      <class name="basicsKT.Collegeweeklive_Demo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

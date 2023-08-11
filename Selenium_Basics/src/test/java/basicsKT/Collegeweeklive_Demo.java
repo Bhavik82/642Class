@@ -6,10 +6,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 public class Collegeweeklive_Demo {
 
-	public static void main(String[] args) throws Exception {
+	@Test // Actual Test cases script
+	public void d() throws Exception {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://collegeweeklive.com/go-signup/");
 		
@@ -32,7 +34,7 @@ public class Collegeweeklive_Demo {
 		driver.findElement(By.id("questions[q_19][4]")).click();
 		
 		Random r = new Random();
-		Int majorsOfInterest = r.nextInt(43);
+		int majorsOfInterest = r.nextInt(43);
 		
 		
 		
